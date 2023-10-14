@@ -110,13 +110,9 @@ function changeLayer(layer) {
         L.marker([51.503583, -0.064073]).addTo(markersLayer2)
             .bindPopup('Marker for Layer 2')
 
-        // 242, 243, 244 - Year 7 Classrooms
-        L.marker([51.510325, -0.07021]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
-
         // 224 - Art
         L.marker([51.509924, -0.052872]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
+            .bindPopup('Marker for Layer 2')
 
         // 225 - Art Design
         L.marker([51.508403, -0.05343]).addTo(markersLayer2)
@@ -132,49 +128,101 @@ function changeLayer(layer) {
 
         // 222 - PA office
         L.marker([51.511294, -0.048527]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
+            .bindPopup('Marker for Layer 2')
 
         // 218 - Music
         L.marker([51.507685, -0.044761]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
-
-        // 242, 243, 244 - Year 7 Classrooms
-        L.marker([51.510325, -0.07021]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
-
-        // 224 - Art
-        L.marker([51.509924, -0.052872]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
-
-        // 225 - Art Design
-        L.marker([51.508403, -0.05343]).addTo(markersLayer2)
             .bindPopup('Marker for Layer 2')
 
-        // 226 - Art
-        L.marker([51.507014, -0.053945]).addTo(markersLayer2)
+        // 243 - Year 7 Classroom
+        L.marker([51.510299, -0.069823]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 244 - Year 7 Classroom - Mrs Barwig
+        L.marker([51.509711, -0.067763]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 242 - Year 7 Classroom - Mrs Mehrotra
+        L.marker([51.509978, -0.07257]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 206
+        L.marker([51.503463, -0.054116]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 205 - Lab
+        L.marker([51.502021, -0.054631]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 201 - Staffroom
+        L.marker([51.497856, -0.053902]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 229 - Social Studies, Mrs Dakanay
+        L.marker([51.503463, -0.059309]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 202 - Deputy Principal
+        L.marker([51.497856, -0.057507]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 233 - Lab
+        L.marker([51.50389, -0.071969]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 232 - Lab
+        L.marker([51.503517, -0.069094]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 239 - English
+        L.marker([51.507869, -0.073771]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 240 - English
+        L.marker([51.50389, -0.071969]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 212, 211, 210 - Music Lessons
+        L.marker([51.505573, -0.047808]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 207 - Dean's Office
+        L.marker([51.504611, -0.054288]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 203 
+        L.marker([51.499992, -0.054374]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 235 - Math Office
+        L.marker([51.503543, -0.075445]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 238 - Lab tech
+        L.marker([51.505653, -0.075231]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
+
+        // 227 - Art Office
+        L.marker([51.506667, -0.050812]).addTo(markersLayer2)
             .bindPopup('Marker for Layer 2')
 
         // 220 - Drama
-        L.marker([51.510058, -0.04931]).addTo(markersLayer2)
+        L.marker([51.510058, -0.049267]).addTo(markersLayer2)
             .bindPopup('Marker for Layer 2')
 
         // 219 - Drama
-        L.marker([51.509738, -0.046048]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
+        L.marker([51.509711, -0.046134]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
 
-        // 222 - PA office
-        L.marker([51.511294, -0.048527]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
+        // 215, 216, 217 - Music
+        L.marker([51.505973, -0.044374]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
 
-        // 218 - Music
-        L.marker([51.507685, -0.044761]).addTo(markersLayer2)
-        .bindPopup('Marker for Layer 2')
-
-
+        // Playground
+        L.marker([51.512648, -0.070596]).addTo(markersLayer2)
+            .bindPopup('Marker for Layer 2')
 
 
-
-        // More markers for layer 2 as needed
     } else if (layer === 'layer3') {
         // Different markers for layer 2
         L.marker([51.506844, -0.061626]).addTo(markersLayer3)
