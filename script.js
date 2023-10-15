@@ -33,8 +33,9 @@ function changeLayer(layer) {
     imageOverlay = L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 
-    // Add new markers for the selected layer
     if (layer === 'layer1') {
+
+        //LEVEL 1
 
         // Gym
         L.marker([51.502412, -0.047078]).addTo(markersLayer1)
@@ -95,9 +96,10 @@ function changeLayer(layer) {
             .bindPopup('<b>Physio</b> <br> Sport injuries treatment')
 
 
-
-        // More markers for layer 1 as needed
     } else if (layer === 'layer2') {
+
+        //LEVEL 2
+
         // Turf
         L.marker([51.508393, -0.060854]).addTo(markersLayer2)
             .bindPopup('<b>Turf</b> ')
@@ -224,102 +226,147 @@ function changeLayer(layer) {
 
 
     } else if (layer === 'layer3') {
+
+        //LEVEL 3
+
         // 316 - Food tech
-        L.marker([51.510058, -0.052958]).addTo(markersLayer3)
+        L.marker([51.509631, -0.052958]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 317 - Digital tech
-        L.marker([51.508029, -0.053687]).addTo(markersLayer3)
+        L.marker([51.507522, -0.053773]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 318 - Fabric Tech
-        L.marker([51.505973, -0.054202]).addTo(markersLayer3)
+        L.marker([51.505386, -0.054159]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 314 - History
-        L.marker([51.510752, -0.049396]).addTo(markersLayer3)
+        L.marker([51.510218, -0.049438]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 313 - Geography
-        L.marker([51.510619, -0.046563]).addTo(markersLayer3)
+        L.marker([51.510138, -0.046692]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 312 - Classics
-        L.marker([51.509097, -0.045147]).addTo(markersLayer3)
+        L.marker([51.508616, -0.045104]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 311 - Chinese
-        L.marker([51.507308, -0.044117]).addTo(markersLayer3)
+        L.marker([51.506988, -0.044203]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 310 - French
-        L.marker([51.505653, -0.043559]).addTo(markersLayer3)
+        L.marker([51.505199, -0.043559]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 309 - Maori
-        L.marker([51.504959, -0.045791]).addTo(markersLayer3)
+        L.marker([51.504531, -0.045877]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
         
         // 308 - Meeting room
-        L.marker([51.505475, -0.047936]).addTo(markersLayer3)
+        L.marker([51.505459, -0.047915]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 307 - Counselling Office
-        L.marker([51.504995, -0.049074]).addTo(markersLayer3)
+        L.marker([51.505059, -0.049235]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 305 - Careers & International studies
-        L.marker([51.504888, -0.050662]).addTo(markersLayer3)
+        L.marker([51.504872, -0.05064]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
-        // 306 - Languages
-        L.marker([51.505716, -0.050254]).addTo(markersLayer3)
+        // 306 - Languages Office
+        L.marker([51.505619, -0.050393]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 304 - RE office
-        L.marker([51.503517, -0.053344]).addTo(markersLayer3)
+        L.marker([51.503003, -0.053247]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 302 - Science Office
-        L.marker([51.500793, -0.054331]).addTo(markersLayer3)
+        L.marker([51.500259, -0.054213]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
-        // 303
-        L.marker([51.505332, -0.050683]).addTo(markersLayer3)
-            .bindPopup('Marker for Layer 3')
-
-        // 306 - Languages
-        L.marker([51.506133, -0.05034]).addTo(markersLayer3)
+        // 303 
+        L.marker([51.501728, -0.053558]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
         // 315 - Social Sciences Office
-        L.marker([51.50883, -0.050511]).addTo(markersLayer3)
+        L.marker([51.50883, -0.050576]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
-        // 304 - RE office
-        L.marker([51.503517, -0.053344]).addTo(markersLayer3)
+        // 320 - RE 
+        L.marker([51.50349, -0.058236]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
-        // 302 - Science Office
-        L.marker([51.500793, -0.054331]).addTo(markersLayer3)
+        // 321 - RE
+        L.marker([51.50381, -0.060897]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
-        // 303
-        L.marker([51.505332, -0.050683]).addTo(markersLayer3)
+        // 322 - RE
+        L.marker([51.503997, -0.063386]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
-        // 306 - Languages
-        L.marker([51.506133, -0.05034]).addTo(markersLayer3)
+        // 323 - RE
+        L.marker([51.504157, -0.065532]).addTo(markersLayer3)
             .bindPopup('Marker for Layer 3')
 
+        // 324 - English
+        L.marker([51.503757, -0.068321]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
 
+        // 327 - English
+        L.marker([51.50381, -0.072098]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 329 - Special aid
+        L.marker([51.503677, -0.076218]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 330 - Math, Mrs Al-Habaash 
+        L.marker([51.505866, -0.075145]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 331 - Math, Mr Wong
+        L.marker([51.507495, -0.074587]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 332 - Math, Mrs Ding-Smith
+        L.marker([51.508776, -0.074244]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 333 - English Office
+        L.marker([51.509658, -0.0736]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 334 - 
+        L.marker([51.511099, -0.073299]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 335
+        L.marker([51.511206, -0.069952]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 336
+        L.marker([51.510165, -0.067377]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 301
+        L.marker([51.499324, -0.053215]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
+
+        // 328
+        L.marker([51.503463, -0.074458]).addTo(markersLayer3)
+            .bindPopup('Marker for Layer 3')
 
     }
 
 }
 
 
-// Initial image overlay (you can change this to whatever you want)
+// Initial image overlay 
 changeLayer('layer1');
 
 
