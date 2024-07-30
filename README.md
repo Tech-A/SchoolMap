@@ -11,4 +11,17 @@ Seeing a need in my school, which at the time relied on static maps postered aro
 - Zooming and Panning capabilities
 
 ### Technologies Used
-Frontend:
+Frontend: HTML, CSS, JavaScript
+Map Integration: Leaflet JS
+
+### Usage
+1. Use the interactive map to explore the school campus.
+2. Click on map markers to get detailed information about specific rooms.
+3. Refer to the color key to easily identify different departments or subjects.
+
+### Future Improvements
+While the project is complete, future improvements could include:
+- Adding a search bar for easier location finding.
+- Incorporating real-time updates for events or closures.
+- Integrating school schedules to show classroom availability.
+- Adding accessibility features to support users with disabilities.
