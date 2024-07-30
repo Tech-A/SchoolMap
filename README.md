@@ -1,4 +1,5 @@
 # SchoolMap
+The School Map project was a project I started and completed in my final year of high school. 
 
 ## Project Overview
 Seeing a need in my school, which at the time relied on static maps postered around the school that were generally difficult to navigate, I sought out to find a digital solution in the form of an online interactive school map. The aim of this project was to make it easier for students, staff, and visitors to navigate the school through a clearer and more user-friendly interface.
